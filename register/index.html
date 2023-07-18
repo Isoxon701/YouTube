@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <link rel="shortcut icon" href="./img/1.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="navbar">
+        <i onclick="openClose()" id="logo_icon" class="fa-solid fa-bars"></i>
+        <img src="./img/YouTube-Logo.wine.svg" alt="">
+        <div class="search">
+            <p><i id="search_glass" class="fa-solid fa-magnifying-glass"></i></p>
+            <input type="text" placeholder="Search">
+            <a href="#"><i id="search_icon" class="fa-solid fa-keyboard"></i> </a>
+        </div>
+        <div class="poi">
+            <p><i class="fa-solid fa-magnifying-glass"></i></p>
+            <span class="tooltiptext">Search</span>
+        </div>
+        <div class="icon12">
+            <p class="icon1"><i class="fa-solid fa-microphone"></i></p>
+            <span class="tooltiptext1">Search with your voice</span>
+        </div>
+        <div class="icon13">
+            <p class="icon2"><i class="fa-solid fa-video"></i></p>
+            <span class="tooltiptext2">Create</span>
+        </div>
+        <div class="icon14">
+            <p class="icon3"><i class="fa-regular fa-bell"></i></p>
+            <span class="tooltiptext3">Notifications</span>
+        </div>
+        <div class="avatar">
+            <img onclick="login_func()" src="./img/1.jpg" alt="">
+        </div>
+    </div>
+    <div class="container">
+        <div class="sidebar">
+
+
+                <ul class="sidebar_block">
+                <li class="in_sidebar2">
+                    <i class="fa-solid fa-home"></i>
+                    <a href="#">Asosiy</a>
+                </li>
+                <li class="in_sidebar2">
+                    <i class="fa-sharp fa-solid fa-arrow-up-short-wide"></i>
+                    <a href="#">Shorts</a>
+                </li>
+                <li class="in_sidebar2">
+                    <i class="fa-sharp fa-solid fa-person"></i>
+                    <a href="#">Obunalar</a>
+                </li>
+                <li class="in_sidebar2" style="margin-top: 10px;">
+                    <i class="fa-sharp fa-solid fa-book"></i>
+                    <a href="#">Kutubxona</a>
+                </li>
+            </ul>
+
+<div class="sidebar_hidden">
+    
+    <div class="in_sidebar1">
+        <i class="fa-solid fa-home"></i>
+        <a href="#">Asosiy</a>
+    </div>
+    <div class="in_sidebar1">
+        <i class="fa-sharp fa-solid fa-arrow-up-short-wide"></i>
+        <a href="#">Shorts</a>
+    </div>
+    <div class="in_sidebar1">
+        <i class="fa-sharp fa-solid fa-person"></i>
+        <a href="#">Obunalar</a>
+    </div>
+
+
+    <hr style="width: 90%; margin-top: 10px;">
+
+
+    <div class="in_sidebar1" style="margin-top: 10px;">
+        <i class="fa-sharp fa-solid fa-book"></i>
+        <a href="#">Kutubxona</a>
+    </div>
+
+
+
+    <div class="in_sidebar1">
+        <i class="fa-sharp fa-solid fa-clock-rotate-left"></i>
+        <a href="#">Tomosha tarixi</a>
+    </div>
+    <div class="in_sidebar1">
+        <i class="fa-sharp fa-regular fa-clock"></i>
+        <a href="#">Keyinroq</a>
+    </div>
+    <div class="in_sidebar1">
+        <i class="fa-sharp fa-solid fa-thumbs-up"></i>
+        <a href="#">Yoqqan videolar</a>
+    </div>
+
+    <hr style="width: 90%; margin-top: 10px;">
+
+    <p class="sidebar_p">Tanishuv</p>
+
+
+    <div class="in_sidebar1" style="margin-top: 5px;">
+        <i class="fa-sharp fa-solid fa-fire"></i>
+        <a href="#">Trendda</a>
+    </div>
+    <div class="in_sidebar1">
+        <i class="fa-sharp fa-solid fa-music"></i>
+        <a href="#">Musiqa</a>
+    </div>
+    <div class="in_sidebar1">
+        <i class="fa-sharp fa-solid fa-wifi"></i>
+        <a href="#">Jonli</a>
+    </div>
+    <div class="in_sidebar1">
+        <i class="fa-sharp fa-solid fa-gamepad"></i>
+        <a href="#">Gaming</a>
+    </div>
+    <div class="in_sidebar1">
+        <i class="fa-sharp fa-solid fa-newspaper"></i>
+        <a href="#">Yangiliklar</a>
+    </div>
+    <div class="in_sidebar1">
+        <i class="fa-sharp fa-solid fa-medal"></i>
+        <a href="#">Sport</a>
+    </div>
+    <div class="in_sidebar1">
+        <i class="fa-sharp fa-solid fa-lightbulb"></i>
+        <a href="#">O'rganish</a>
+    </div>
+    <div class="in_sidebar1">
+        <i class="fa-sharp fa-solid fa-shirt"></i>
+        <a href="#">Moda va go'zallik</a>
+    </div>
+
+    <hr style="width: 90%; margin-top: 10px;">
+    <p class="sidebar_p">Youtube xizmatlari</p>
+
+
+    <div class="in_sidebar1" style="margin-top: 10px;">
+        <i class="fa-sharp fa-solid fa-child"></i>
+        <a href="#">YouTube kids</a>
+    </div>
+
+    <hr style="width: 90%; margin-top: 8px;">
+
+    <div class="in_sidebar1" style="margin-top: 10px;">
+        <i class="fa-sharp fa-solid fa-child"></i>
+        <a href="#">Sozlamalar</a>
+    </div>
+    <div class="in_sidebar1" style="margin-top: 10px;">
+        <i class="fa-sharp fa-solid fa-child"></i>
+        <a href="#">Shikoyat tarixi</a>
+    </div>
+    <div class="in_sidebar1" style="margin-top: 10px;">
+        <i class="fa-sharp fa-solid fa-child"></i>
+        <a href="#">Yordam</a>
+    </div>
+    <div class="in_sidebar1" style="margin-top: 10px;">
+        <i class="fa-sharp fa-solid fa-child"></i>
+        <a href="#">Fikr-mulohaza</a>
+    </div>
+    <hr style="width: 90%; margin-top: 8px;">
+
+
+    <div class="sidebar_a">
+        <ul>
+            <li>
+                <a href="#">Kanal haqida Matbuot</a>
+            </li>
+            <li>
+                <a href="#">Mualliflik huquqi</a>
+            </li>
+            <li>
+                <a href="#">Biz bilan aloqa ijodkorlar</a>
+            </li>
+            <li>
+                <a href="#">Reklama Dasturchilar</a>
+            </li>
+        </ul>
+    </div>
+
+
+
+    <div class="sidebar_a">
+        <ul>
+            <li>
+                <a href="#">Shartlar maxfiylik</a>
+            </li>
+            <li>
+                <a href="#">Qoidalar va Xavfsizlik</a>
+            </li>
+            <li>
+                <a href="#">YouTube qanday ishlaydi</a>
+            </li>
+            <li>
+                <a href="#">Yangi funksiyalarni sinash</a>
+            </li>
+        </ul>
+    </div>
+
+    <span class="sidebar_span">@ 2023 Google LLC</span>
+
+</div>
+        </div>
+
+
+
+
+
+
+
+
+
+        <div class="wrapper">
+
+            <div class="chips_wrapper">
+                <div class="chip">
+                    <p>All</p>
+                    <span class="chip_span">All</span>
+                </div>
+                <div class="chip">
+                    <p>HTML</p>
+                    <span class="chip_span">HTML</span>
+                </div>
+                <div class="chip">
+                    <p>CSS</p>
+                    <span class="chip_span">CSS</span>
+                </div>
+                <div class="chip">
+                    <p>Javascript</p>
+                    <span class="chip_span">Javascript</span>
+                </div>
+                <div class="chip">
+                    <p>Music</p>
+                    <span class="chip_span">Music</span>
+                </div>
+                <div class="chip">
+                    <p>Live</p>
+                    <span class="chip_span">Live</span>
+                </div>
+                <div class="chip">
+                    <p>Mixes</p>
+                    <span class="chip_span">Mixes</span>
+                </div>
+                <div class="chip">
+                    <p>Comedy</p>
+                    <span class="chip_span">Comedy</span>
+                </div>
+                <div class="chip">
+                    <p>CrosFit</p>
+                    <span class="chip_span">CrosFit</span>
+                </div>
+                <div class="chip">
+                    <p>Scane</p>
+                    <span class="chip_span">Scane</span>
+                </div>
+                <div class="chip">
+                    <p>Pop Music</p>
+                    <span class="chip_span">Pop Music</span>
+                </div>
+                <div class="chip">
+                    <p>Watched</p>
+                    <span class="chip_span">Watched</span>
+                </div>
+                <div class="chip">
+                    <p>New to you</p>
+                    <span class="chip_span">New to you</span>
+                </div>
+                <div class="chip">
+                    <p>Cars</p>
+                    <span class="chip_span">Cars</span>
+                </div>
+                <div class="chip">
+                    <p>Games</p>
+                    <span class="chip_span">Games</span>
+                </div>
+            </div>
+        <div class="avatar_login">
+            <div class="avatar_login_account">
+                <div onclick="login_func()" class="avatar_login_account_left">
+                        <img src="./img/1.jpg" alt="">
+                </div>
+                <div class="avatar_login_account_right">
+                    <p>Isoxon Karimjanov</p>
+                    <span>Karimjanov@gmail.com</span>
+                    <a href="#">Google hisobingizni boshqaring</a>
+                </div>
+            </div>
+
+            <div class="avatar_login_account2">
+                <ul>
+                    <li class="avatar_login_account2_li" style="margin-top: 10px;">
+                        <i class="fa-sharp fa-solid fa-users"></i>
+                        <a href="#">Kanal yaratish</a>
+                    </li>
+                    <li class="avatar_login_account2_li">
+                        <i class="fa-sharp fa-solid fa-circle-play"></i>
+                        <a href="#">YouTube Studio</a>
+                    </li>
+                    <li class="avatar_login_account2_li">
+                        <i class="fa-sharp fa-solid fa-user-plus"></i>
+                        <a href="#">Hisobni almashtirish</a>
+                    </li>
+                    <li class="avatar_login_account2_li">
+                        <i class="fa-sharp fa-solid fa-person-walking-dashed-line-arrow-right"></i>
+                        <a href="../login/index.html">Chiqish</a>
+                    </li>
+                </ul>
+                <hr style="width: 100%; margin-top: 10px;">
+                <li class="avatar_login_account2_li" style="margin-top: 10px;">
+                    <i class="fa-solid fa-dollar-sign"></i>
+                    <a href="#">Haridlar va homiyliklar</a>
+                </li>
+                <li class="avatar_login_account2_li">
+                    <i class="fa-solid fa-circle-info"></i>
+                    <a href="#">YouTubedagi ma'lumotlaringiz</a>
+                </li>
+                <hr style="width: 100%; margin-top: 10px;">
+                
+                <li class="avatar_login_account2_li" style="margin-top: 10px;">
+                    <i class="fa-solid fa-moon"></i>
+                    <a href="#">Qiyofa: Kunduzgi</a>
+                    <i style="margin-left: 90px; font-size: 15px;" class="fa-sharp fa-solid fa-chevron-right"></i>
+                </li>
+                <li class="avatar_login_account2_li">
+                    <i class="fa-solid fa-language"></i>
+                    <a href="#">Til: o'zbek</a>
+                    <i style="margin-left: 130px; font-size: 15px;" class="fa-sharp fa-solid fa-chevron-right"></i>
+                </li>
+                <li class="avatar_login_account2_li">
+                    <i class="fa-solid fa-x"></i>
+                    <a href="#">Xavfsiz rejim: o'chiq</a>
+                    <i style="margin-left: 70px; font-size: 15px;" class="fa-sharp fa-solid fa-chevron-right"></i>
+                </li>
+                <li class="avatar_login_account2_li">
+                    <i class="fa-solid fa-globe"></i>
+                    <a href="#">Mamlakat: AQSH</a>
+                    <i style="margin-left: 85px; font-size: 15px;" class="fa-sharp fa-solid fa-chevron-right"></i>
+                </li>
+                <li class="avatar_login_account2_li">
+                    <i class="fa-solid fa-keyboard"></i>
+                    <a href="#">Klaviatura tezkor tugmalari</a>
+                </li>
+                <hr style="width: 100%; margin-top: 10px;">
+                <li class="avatar_login_account2_li" style="margin-top: 10px;">
+                    <i class="fa-solid fa-gear"></i>
+                    <a href="#">Sozlamalar</a>
+                </li>
+                <hr style="width: 100%; margin-top: 10px;">
+                <li class="avatar_login_account2_li" style="margin-top: 10px;">
+                    <i class="fa-solid fa-circle-question"></i>
+                    <a href="#">Yordam</a>
+                </li>
+                <li class="avatar_login_account2_li">
+                    <i class="fa-solid fa-info"></i>
+                    <a href="#">Fikr-mulohaza</a>
+                </li>
+            
+            
+            </div>
+
+
+
+
+        </div>
+        
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <div class="main">
+
+            <div class="main_box">
+                <div class="main_box_img">
+                    <img src="./img/pexels-pixabay-36717.jpg" alt="">
+                </div>
+                <div class="main_box_box">
+                    <div class="main_box_box1">
+                        <img src="./img/1.jpg" alt="">
+                    </div>
+                    <div class="main_box_box2">
+                        <h1>IT dasturlash Html CSS JavsScript</h1>
+                        <p>Web developer</p>
+                        <span>12mln marta <span>.</span> 1yil oldin</span>
+                    </div>
+                </div>
+            </div>
+            <div class="main_box">
+                <div class="main_box_img">
+                    <img src="./img/pexels-pixabay-36717.jpg" alt="">
+                </div>
+                <div class="main_box_box">
+                    <div class="main_box_box1">
+                        <img src="./img/1.jpg" alt="">
+                    </div>
+                    <div class="main_box_box2">
+                        <h1>IT dasturlash Html CSS JavsScript</h1>
+                        <p>Web developer</p>
+                        <span>12mln marta <span>.</span> 1yil oldin</span>
+                    </div>
+                </div>
+            </div>
+            <div class="main_box">
+                <div class="main_box_img">
+                    <img src="./img/pexels-pixabay-36717.jpg" alt="">
+                </div>
+                <div class="main_box_box">
+                    <div class="main_box_box1">
+                        <img src="./img/1.jpg" alt="">
+                    </div>
+                    <div class="main_box_box2">
+                        <h1>IT dasturlash Html CSS JavsScript</h1>
+                        <p>Web developer</p>
+                        <span>12mln marta <span>.</span> 1yil oldin</span>
+                    </div>
+                </div>
+            </div>
+            <div style="margin-top: 40px;" class="main_box">
+                <div class="main_box_img">
+                    <img src="./img/pexels-pixabay-36717.jpg" alt="">
+                </div>
+                <div class="main_box_box">
+                    <div class="main_box_box1">
+                        <img src="./img/1.jpg" alt="">
+                    </div>
+                    <div class="main_box_box2">
+                        <h1>IT dasturlash Html CSS JavsScript</h1>
+                        <p>Web developer</p>
+                        <span>12mln marta <span>.</span> 1yil oldin</span>
+                    </div>
+                </div>
+            </div>
+            <div style="margin-top: 40px;" class="main_box">
+                <div class="main_box_img">
+                    <img src="./img/pexels-pixabay-36717.jpg" alt="">
+                </div>
+                <div class="main_box_box">
+                    <div class="main_box_box1">
+                        <img src="./img/1.jpg" alt="">
+                    </div>
+                    <div class="main_box_box2">
+                        <h1>IT dasturlash Html CSS JavsScript</h1>
+                        <p>Web developer</p>
+                        <span>12mln marta <span>.</span> 1yil oldin</span>
+                    </div>
+                </div>
+            </div>
+            <div style="margin-top: 40px;" class="main_box">
+                <div class="main_box_img">
+                    <img src="./img/pexels-pixabay-36717.jpg" alt="">
+                </div>
+                <div class="main_box_box">
+                    <div class="main_box_box1">
+                        <img src="./img/1.jpg" alt="">
+                    </div>
+                    <div class="main_box_box2">
+                        <h1>IT dasturlash Html CSS JavsScript</h1>
+                        <p>Web developer</p>
+                        <span>12mln marta <span>.</span> 1yil oldin</span>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        
+    </div>
+    <div class="shorts">
+        <div class="shorts1">
+            <div class="short_img">
+                <img src="./img/pexels-pixabay-36717.jpg" alt="">
+            </div>
+            <h1>Dasturlash <br> HTML CSS JS</h1>
+            <p>12mln marta</p>
+        </div>
+        <div class="shorts1">
+            <div class="short_img">
+                <img src="./img/pexels-pixabay-36717.jpg" alt="">
+            </div>
+            <h1>Dasturlash <br> HTML CSS JS</h1>
+            <p>12mln marta</p>
+        </div>
+        <div class="shorts1">
+            <div class="short_img">
+                <img src="./img/pexels-pixabay-36717.jpg" alt="">
+            </div>
+            <h1>Dasturlash <br> HTML CSS JS</h1>
+            <p>12mln marta</p>
+        </div>
+        <div class="shorts1">
+            <div class="short_img">
+                <img src="./img/pexels-pixabay-36717.jpg" alt="">
+            </div>
+            <h1>Dasturlash <br> HTML CSS JS</h1>
+            <p>12mln marta</p>
+        </div>
+
+    </div>
+
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
